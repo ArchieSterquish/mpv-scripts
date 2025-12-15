@@ -23,7 +23,7 @@ Selects subtitle based on its name. Can be configured in smart_subs.conf
 
 For example if you have 'Songs' and 'Full' subtitles it'd choose 'Full'
 ## webm_maker.lua [ekisu](https://github.com/ekisu/mpv-webm)
-Gives mpv the cability to create short videos from video without using any external programs. Videos are saves in user 'Videos' directory. This can be changed in webm.conf
+Gives mpv the cability to create short videos from video without using any external programs. Videos are saved in user 'Videos' directory. This can be changed in webm.conf
 ## toggle_osc_visibility.lua   
 Changes osc visibility between 'never' and 'always' 
 
