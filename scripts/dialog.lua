@@ -1,3 +1,5 @@
+-- Note: check the script how it's used in original menu.conf example
+
 -- Copyright (c) 2023-2024 tsl0922. All rights reserved.
 -- SPDX-License-Identifier: GPL-2.0-only
 
