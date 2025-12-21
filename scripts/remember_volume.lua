@@ -1,7 +1,7 @@
 ﻿-- Script to remember volume 
 -- (I don't know why it's not built-in feature)
 
-local filepath = mp.command_native({"expand-path", "~/.mpv_volume"})    -- Self-explanatory
+local filepath = mp.command_native({"expand-path", "~~/config_saved_values/.mpv_volume"}) -- config_saved_values should be already created
 local loadfile = io.open(filepath, "r")                                 -- Opening file
 
 if loadfile then                                    

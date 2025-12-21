@@ -1,5 +1,6 @@
 ﻿-- This script skips chapters based on their title
 -- Categories are listed below but to skip them you need to add categories in script-opts/chapterskip.conf 
+mp.options = require "mp.options"
 
 local categories = {
     specific_chapter = "^Chapter 1/^Chapter 2/", -- REMINDER: delete this one as it's only title specific 
@@ -15,8 +16,6 @@ local options = {
     categories = "",
     skip = ""
 }
-
-mp.options = require "mp.options"
 
 function matches(i, title)
     for category in string.gmatch(options.skip, " *([^;]*[^; ]) *") do
